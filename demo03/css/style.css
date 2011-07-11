@@ -1,0 +1,306 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* body */
+body {
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	background-color:#DBDBDB;
+}
+img {
+	border:0;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:none;
+	color:#C0C;
+}
+h1 {
+	margin:0;
+	padding:0px;
+	font-size:14px;
+}
+/* framemain */
+.framemain {
+	width:1000px;
+	margin:0 auto;
+	background-color:#FEFEFE;
+}
+/* framehead */
+.framehead {
+	margin-top:10px;
+	height:140px;
+}
+.bb {
+	height:100px;
+}
+.yijia {
+	width:210px;
+	float:left;
+}
+.search {
+	width:690px;
+	float:left;
+	margin-top:70px;
+	line-height:30px;
+}
+.log {
+	width:100px;
+	float:left;
+	margin-top:50px;
+	line-height:25px;
+}
+#aa{
+	margin-top:15px;
+	}
+#aa ul{
+    height:30px;
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	background-image:url(../images/globallink_02.jpg);
+	background-repeat:repeat-x;
+	}
+#aa li {
+	height:33px;
+	line-height:33px;
+	float:left;
+	text-align:center;
+	width:125px;
+}
+#aa a {
+	display:block;
+	text-decoration:none;
+	color:#FFF;
+}
+#aa li a:hover {
+	background-image:url(../images/globallink_03.jpg);
+	background-repeat:repeat-x;
+}
+
+/* framebody */
+.framebody {}
+/* frameleft */
+.frameleft {
+	margin-top:30px;
+	width:21%;
+	height:900px;
+	float:left;
+}
+.frameleft ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	}
+.frameleft li {
+	height:36px;
+	line-height:36px;
+	float:left;
+	text-align:center;
+	width:125px;
+}
+
+/* frameright */
+.frameright {
+	margin-top:30px;
+	width:79%;
+	height:900px;
+	float:left;
+}
+.production {
+	height:810px;
+}
+.produces {
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:33%;
+	height:250px;
+	float:left;
+}
+.small img {
+	max-width:110px;
+	width:110px;
+    width:expression(document.body.clientWidth>110?"110px":"auto");
+	max-height:110px;
+	height:110px;
+    height:expression(document.body.clientHeight>110?"110px":"auto");
+}
+.da ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	}
+.da li {
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	width:125px;
+}
+.da li span{
+	float:left;
+	margin-left:10px;
+	}
+
+/* page */
+.page {
+	color:#F33;
+	height:30px;
+	line-height:30px;
+	text-align:right;
+	background-image:url(../images/globallink_03.jpg);
+	background-repeat:repeat-x;
+}
+.pageaa {
+	color:#03C;
+}
+/* frametail */
+.frametail {
+	height:60px;
+}
+.ta {
+	height:30px;
+	line-height:30px;
+	text-align:center;
+}
+.tc {
+	height:30px;
+	line-height:30px;
+	text-align:center;
+}
+/* frameright main */
+.first {
+	background-color:#CCC;
+	height:10px;
+}
+.second {
+	height:800px;
+}
+.three {
+	background-color:#CCC;
+	height:10px;
+}
+/* frameCart */
+.cartleft {
+	height:30px;
+	line-height:30px;
+	margin-bottom:10px;
+}
+.cartright {
+	text-align:center;
+	height:30px;
+	line-height:30px;
+	margin-top:30px;
+}
+.cartrightaa {
+	margin-top:10px;
+}
+.cartrightab {
+	height:30px;
+	line-height:30px;
+	width:90%;
+}
+.cartrightac {
+	height:30px;
+	line-height:30px;
+}
+.cartrightad {
+	height:30px;
+	line-height:30px;
+	color:#C06;
+}
+.zhuyi {
+	margin-top:70px;
+	text-align:center;
+}
+/* regist */
+.regist {
+}
+.ra {
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	margin-top:100px;
+}
+.rb {
+	margin-top:60px;
+	text-align:right;
+}
+/* login */
+.login {
+	height:700px;
+}
+.la {
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	margin-top:100px;
+}
+.lb {
+	margin-top:60px;
+	text-align:right;
+}
+/* produceDetails */
+.pa {
+	width:60%;
+	float:left;
+	height:700px;
+}
+.paa {
+	height:30px;
+	line-height:30px;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+.pab img {
+	min-height:300px;
+	height:300px;
+height:expression(document.body.clientHeight<300?"300px":"auto");
+	min-width:300px;
+	width:300px;
+width:expression(document.body.clientWidth<300?"300px":"auto");
+}
+.pag {
+	height:80px;
+}
+.pac {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.pad img {
+	max-width:50px;
+	width:50px;
+width:expression(document.body.clientWidth>50?"50px":"auto");
+	max-height:50px;
+	height:50px;
+height:expression(document.body.clientHeight>50?"50px":"auto");
+}
+.pae {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.pb {
+	width:40%;
+	float:left;
+	height:700px;
+}
+.pbb {
+	margin-top:20px;
+	margin-bottom:30px;
+	height:30px;
+	line-height:30px;
+}
+.pbdselect {
+	margin-top:20px;
+	margin-bottom:30px;
+	height:30px;
+	line-height:30px;
+	width:70px;
+}
+.pad {
+	height:20px;
+	line-height:20px;
+}

@@ -1,23 +1,27 @@
 @charset "utf-8";
 /* CSS Document */
-body{
+body {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:12px;
 	color:#CCC;
 	margin:0px;
 	padding:0px;
 	text-align:center;			/* 居中且宽度固定的版式，参考11.2节 */
-	background-color:#999;
+	background-color:#C1C1C1;
 }
-#container{
+#container {
 	color:#CCC;
 	position:relative;
 	margin:1px auto 0px auto;
 	width:1000px;
 	text-align:left;
 }
-#banner{ margin-top:30px;}
-#banner img{ border:0px;}
+#banner {
+	margin-top:30px;
+}
+#banner img {
+	border:0px;
+}
 #globallink {
 	width:1000px;
 	height:32px;
@@ -49,4 +53,61 @@ body{
 	background-image:url(../images/globallink_02.jpg);
 	background-repeat:repeat-x;
 	color:#63C;
+}
+#midleft {
+	width:24%;
+	float:left;
+	color:#FFF;
+}
+#midleftaa {
+	margin-top:10px;
+}
+#midleftac {
+	background-color:#919191;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+}
+#midleftab {
+	height:30px;
+	line-height:30px;
+	margin-top:10px;
+	text-align:center;
+	background-image:url(../images/globallink_01.jpg);
+	background-repeat:repeat-x;
+}
+#midleftab li {
+	height:25px;
+	line-height:25px;
+}
+#midright {
+	width:72%;
+	float:right;
+	color:#00C;
+}
+#midrighta {
+	height:30px;
+	line-height:30px;
+	background-image:url(../images/globallink_02.jpg);
+	background-repeat:repeat-x;
+	margin-top:15px;
+}
+#tail {
+	clear:both;
+	margin-top:30px;
+	color:#E7E7E7;
+	background-color:#CCC;
+}
+#taila {
+	clear:both;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+}
+#tailb {
+	clear:both;
+	margin-bottom:40px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
 }
