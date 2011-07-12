@@ -55,7 +55,7 @@ body {
 	color:#63C;
 }
 #midleft {
-	width:24%;
+	width:240px;
 	float:left;
 	color:#FFF;
 }
@@ -81,16 +81,22 @@ body {
 	line-height:25px;
 }
 #midright {
-	width:72%;
+	width:720px;
 	float:right;
 	color:#00C;
 }
 #midrighta {
+	width:720px;
+	float:left;
 	height:30px;
 	line-height:30px;
 	background-image:url(../images/globallink_02.jpg);
 	background-repeat:repeat-x;
 	margin-top:15px;
+}
+#midrightab {
+	width:720px;
+	float:left;
 }
 #tail {
 	clear:both;
